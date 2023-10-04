@@ -1,5 +1,4 @@
-
-## Hey, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px" height= "29"> I'm Qasim!
+## Hey <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px" height= "29">, I'm Qasim!
 
 <a href="https://www.facebook.com/aiwithqasim" target="_blank" rel="noopener noreferrer">
   <img align="left" width="24px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-256.png"  />
@@ -32,8 +31,8 @@
 
 - [AWS Cloud Captain](https://aws.amazon.com/developer/community/students/) - Got selected as AWS cloud Captain to unleash the AWS Cloud skills among students community
 - [Data ENgineer @ Royal CYber](https://www.linkedin.com/company/202963/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfggyD1HIT56cnp0a1YPYYg%3D%3D) - Working as Data Engineer at Royal cyber
-- [AWS Campus Ambassador](https://awscommunity.pk/) - Serve as ambassador for AWS to introduce the valueable servies of AWS to Bahrian community.
-- [Royal Cyber's Ambassador](https://www.royalcyber.com/) Promtoe the valueable events like Artificial Intelligence, Big data , MlOps etc to Bahrian Community.
+- [AWS Campus Ambassador](https://awscommunity.pk/) - serve as ambassador for AWS to introduce the valueable servies of AWS to Bahrian community.
+- [Royal Cyber's Ambassador](https://www.royalcyber.com/) promtoe the valueable events like Artificial Intelligence, Big data , MlOps etc to Bahrian Community.
 - [Lead Pakistan Chapter](https://omdena.com/omdena-chapter-page-pakistan/) - Under the vision to establish an ecosystem to educate human resources & remove technology gap from Pakistan become lead of [Omdena Pakistan Chapter](https://www.facebook.com/OmdenaPK/).
 - [Jr.Machine Learning Engineer](https://omdena.com/) - Jr. Machine Learning Engineer at world's #1 platform for building Artificial Intelligence i:e [Omdena](https://omdena.com/) with 20,000+ collaborators from different places around the world.
 - [Jr.Data Scientist ](https://www.linkedin.com/company/aisol-ai-solutions/) -AISOL was a startup form providing Artficial Intellgence Services and I served as Jr.Data Scientist on different Projects.
@@ -54,7 +53,7 @@
 - Amazon Web Service (AWS) using  <strong>Sagemaker</strong>.
 - Backend Development using <strong>Django</strong> and <strong>Flask</strong>.
 
-### Follow!!
+### Follow
 - To follow my GitHub, Search by username <strong>aiwithqasim</strong>.
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiwithqasim)](https://github.com/anuraghazra/github-readme-stats)
