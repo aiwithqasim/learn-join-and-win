@@ -1,4 +1,4 @@
-![hacktoberfest](https://miro.medium.com/v2/resize:fit:1400/1*e747wX6KY_OgMFeBlhGJow.png)
+![hacktoberfest](./images/hacktoctoberfest2023.png)
 <div align="center">
 	<p>
         <b><i>Let's Contribute To Open-source</i></b>
@@ -7,10 +7,10 @@
 
 Hacktoberfest, in its 10th year, is a month-long celebration of open-source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
 
-### *Backgrounds - learn-join-and-win*
+### *Background - (learn-join-and-win)*
 Usually, newbies like Students who recently started using Github didn't know much about how to contribute to a team. This Hacktoberfest 2023 challenge will not only help them to get started but we can contribute as a team plus have some swags as a token of appreciation. 
 
-Note: This challenge is mainly targeting newbies in Bahria University to get started with it but if you're not from Bahria University you can still read the README & contribute according to instructions
+Note: This challenge is mainly targeting newbies (Students) in Bahria University to get started with Github, but if you're not from Bahria University you can still read the README & contribute according to instructions.
 
 ### *Completing the Challenge*
 
@@ -22,17 +22,28 @@ If you have previously never contributed to any open-source software then these 
 4. Once it is forked, clone the repository in your computer. For this, copy the URL in the address bar, and use the following command:
 
 ```sh
-git clone url_you_just_copied
+git clone <url_you_just_copied>
 ```
 
 4. Open this cloned repository in your preferred code editor. Also, open a terminal in this directory.
 5. Now type in the following command in the terminal and replace `username` with your GitHub username.
 
 ```sh
-git checkout -b username
+git checkout -b dev
 ```
 
-6. Fill this block with necessary info of yourself.
+6. Create a folder with your Name, University & Section using following pattern
+
+```sh
+Name_University_Section (i:e., QasimHassan_BahriaUniveristy_BCE8A)
+```
+
+7. Add your customized personalized `README.md` as shown below as proof that you ahve get started with GitHub. 
+
+![hacktoberfest](./images/github-readme.png)
+
+
+8. Make Sure your `README.md` have following this block with necessary info of yourself.
 ```
     {
       "name": {YOUR_NAME},
@@ -43,10 +54,7 @@ git checkout -b username
     }
 ```
 
-7. Now add the above filled block to the array in `profiles.json` file
-
-
-8. Once you have done all this, commit your changes to GitHub. You can do this with the following commands. Make sure you execute them in the precise order one after another in your terminal.
+9. Once you have done all this, commit your changes to GitHub. You can do this with the following commands. Make sure you execute them in the precise order one after another in your terminal.
 
 ```sh
 # copy and paste the following in the terminal
@@ -59,8 +67,8 @@ git commit -m "hacktoberfest contribution"
 git push -u origin your_github_username
 ```
 
-9. Now open the forked repository on your GitHub. You will see a yellow box at the top telling you that some changes are pushed. You will also see a button called `Compare & pull request`. Click on it.
-10. Now add a title, some description! You have opened a pull request in this repository.
+10. Now open the forked repository on your GitHub. You will see a yellow box at the top telling you that some changes are pushed. You will also see a button called `Compare & pull request`. Click on it.
+11. Now add a title, some description! You have opened a pull request in this repository.
 
 *You need to open **four** valid pull requests in order to complete the challenge. If you have performed the above steps, you have already opened one pull request. And you need only three more.*
 
