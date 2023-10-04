@@ -33,7 +33,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shaswat-satyam&show_icons=true&theme=dracula&locale=en" alt="shaswat-satyam" /></p>
 
 [![@shaswatsatyam's Holopin badges](https://holopin.me/shaswatsatyam)](https://holopin.io/@shaswatsatyam)
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shaswat-satyam&theme=dark" alt="shaswat-satyam" /></p>
 
 
