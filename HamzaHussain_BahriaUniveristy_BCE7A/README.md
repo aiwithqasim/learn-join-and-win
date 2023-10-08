@@ -29,7 +29,7 @@
 
 ### My Experiences 🙌
 
-- [React Js Developer @ Server4sale LLC](https://www.linkedin.com/company/202963/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfggyD1HIT56cnp0a1YPYYg%3D%3D) - Working as Data Engineer at Royal cyber
+- [React Js Developer @ Server4sale LLC] - Worked as React Js Developer at Server4sale LLC
 - [Royal Cyber's Ambassador](https://www.royalcyber.com/) promtoe the valueable events like Artificial Intelligence, Big data , MlOps etc to Bahrian Community.
 - Data Science & Bussiness Analyst at [The Spark Foundation](https://www.thesparksfoundationsingapore.org/) - part of sparks foundation as internee of Data Science & bussiness analytics to work on different projects.
 
