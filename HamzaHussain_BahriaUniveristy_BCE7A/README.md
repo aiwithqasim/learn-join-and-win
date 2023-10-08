@@ -43,10 +43,10 @@
 ### Follow
 - To follow my GitHub, Search by username <strong>hamzee426</strong>.
 
- {
+ <!-- {
       "name": "Hamza Hussain",
       "batch": 2024,
       "major": Computer Engineering,
       "githubUsername": hamzee426,
       "favoriteLanguage": Javascript
-    }
+    } -->
