@@ -5,6 +5,7 @@ def fix_teen(n):
     else:
         return n
 
+
 def sum(a, b, c):
     a = fix_teen(a)
     b = fix_teen(b)
