@@ -1,0 +1,7 @@
+{
+      "name": {Mohammad Nazim},
+      "batch": {2023},
+      "major": {Computer Engineering},
+      "githubUsername": {Mohammad3514},
+      "favoriteLanguage": {Python}
+    }
