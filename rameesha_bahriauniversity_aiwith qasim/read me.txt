@@ -1,0 +1,7 @@
+    {
+      "name": {Rameesha Ansari},
+      "batch": {2023},
+      "major": {computer engineering},
+      "githubUsername": {rameeshaansari},
+      "favoriteLanguage": {html}
+    }
