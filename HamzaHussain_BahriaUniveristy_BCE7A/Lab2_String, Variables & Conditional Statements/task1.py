@@ -5,7 +5,6 @@ def fix_teen(n):
     else:
         return n
 
-
 def sum(a, b, c):
     a = fix_teen(a)
     b = fix_teen(b)
@@ -13,7 +12,6 @@ def sum(a, b, c):
 
     total = a + b + c
     return total
-
 
 print("Input: a=3, b=1, c=4")
 print("Output: Sum =", sum(3, 1, 4))
