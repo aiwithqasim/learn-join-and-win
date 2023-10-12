@@ -1,0 +1,8 @@
+    {
+      "name": {MUHAMMAD ARSLAN},
+      "batch": {MUHAMMAD ARSLAN BUKC BCE1},
+      "major": {COMMPUTER ENGINEERING},
+      "githubUsername": {MARSLAN193},
+      "favoriteLanguage": {JAVA
+}
+    }
