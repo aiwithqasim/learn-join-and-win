@@ -1,0 +1,7 @@
+{
+      "name": {AYESHA_RASHID},
+      "batch": {FALL_2023},
+      "major": {BCE},
+      "githubUsername": {Ayesharao-05},
+      "favoriteLanguage": {C++}
+    }
