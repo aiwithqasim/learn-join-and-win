@@ -1,0 +1,55 @@
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+for i in range(4, 0, -1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+-------------------------------------
+binary_numbers = input("Enter comma separated 4-digit binary numbers: ").split(',')
+divisible_by_5 = [num for num in binary_numbers if int(num, 2) % 5 == 0]
+print(','.join(divisible_by_5))
+
+Enter comma separated 4-digit binary numbers: 1111,1101,0001,0101
+1111,0101
+-----------------------------------------
+month_dict = {
+    "January": 31,
+    "February": "28/29",
+    "March": 31,
+    "April": 30,
+    "May": 31,
+    "June": 30,
+    "July": 31,
+    "August": 31,
+    "September": 30,
+    "October": 31,
+    "November": 30,
+    "December": 31,
+}
+
+months = list(month_dict.keys())
+print("List of months:", ', '.join(months))
+month_name = input("Input the name of Month: ")
+
+if month_name in month_dict:
+    days = month_dict[month_name]
+    print(f"No. of days: {days} days")
+else:
+    print("Invalid month name.")
+
+List of months: January, February, March, April, May, June, July, August, September, October, November, December
+Input the name of Month: August
+No. of days: 31 days
+--------------------------------------
