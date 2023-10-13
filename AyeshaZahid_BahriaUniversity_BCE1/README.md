@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @AyeshaZahid296
+- 👀 I’m interested in Computer Engineering.
+- 🌱 I’m currently learning Web Development and AI.
+- 💞️ I’m looking to collaborate on Web Development and AI.
+- 📫 How to reach me out using my [linkedin ~ AyeshaZahid296](https://www.linkedin.com/in/ayesha-undefined-aa6a03294/)
