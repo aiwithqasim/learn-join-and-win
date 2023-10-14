@@ -1,0 +1,139 @@
+from collections import Counter
+​
+data = {'Math': 81, 'Physics': 83, 'Chemistry': 87}
+sorted_data = sorted(data.items(), key=lambda x: x[1], reverse=True)
+print(sorted_data)
+​
+[('Chemistry', 87), ('Physics', 83), ('Math', 81)]
+import json
+​
+original_dict = {
+    'students': [
+        {'firstName': 'Nikki', 'lastName': 'Roysden'},
+        {'firstName': 'Mervin', 'lastName': 'Friedland'},
+        {'firstName': 'Aron ', 'lastName': 'Wilkins'}
+    ],
+    'teachers': [
+        {'firstName': 'Amberly', 'lastName': 'Calico'},
+        {'firstName': 'Regine', 'lastName': 'Agtarap'}
+    ]
+}
+​
+# Save the dictionary to a JSON file
+with open('data.json', 'w') as json_file:
+    json.dump(original_dict, json_file)
+​
+# To read the JSON file back into a dictionary:
+with open('data.json', 'r') as json_file:
+    loaded_dict = json.load(json_file)
+print(loaded_dict)
+​
+{'students': [{'firstName': 'Nikki', 'lastName': 'Roysden'}, {'firstName': 'Mervin', 'lastName': 'Friedland'}, {'firstName': 'Aron ', 'lastName': 'Wilkins'}], 'teachers': [{'firstName': 'Amberly', 'lastName': 'Calico'}, {'firstName': 'Regine', 'lastName': 'Agtarap'}]}
+original_list = [
+    {'id': '#FF0000', 'color': 'Red'},
+    {'id': '#800000', 'color': 'Maroon'},
+    {'id': '#FFFF00', 'color': 'Yellow'},
+    {'id': '#808000', 'color': 'Olive'}
+]
+​
+# Specify the dictionary to remove by 'id'
+id_to_remove = '#FF0000'
+filtered_list = [item for item in original_list if item['id'] != id_to_remove]
+print(filtered_list)
+​
+[{'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
+user_input = input("Enter a sentence: ")
+words = user_input.split()
+reversed_sentence = ' '.join(reversed(words))
+print("Reversed sentence:", reversed_sentence)
+​
+Enter a sentence: i am shiza
+Reversed sentence: shiza am i
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+n = 6
+result = fibonacci(n)
+print(f"The {n}th Fibonacci number is: {result}")
+
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+​
+n = 6
+result = fibonacci(n)
+print(f"The {n}th Fibonacci number is: {result}")
+​
+The 6th Fibonacci number is: 8
+2
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+​
+n = 2
+result = fibonacci(n)
+print(f"The {n}th Fibonacci number is: {result}")
+​
+The 2th Fibonacci number is: 1
+# BFS (Breadth-First Search)
+from collections import deque
+​
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+​
+    while queue:
+        vertex = queue.popleft()
+        if vertex not in visited:
+            visited.add(vertex)
+            print(vertex, end=' ')
+​
+            for neighbor in graph[vertex]:
+                if neighbor not in visited:
+                    queue.append(neighbor)
+​
+# DFS (Depth-First Search)
+def dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+​
+    visited.add(start)
+    print(start, end=' ')
+​
+    for neighbor in graph[start]:
+        if neighbor not in visited:
+            dfs(graph, neighbor, visited)
+​
+# Example graph
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+​
+print("BFS:")
+bfs(graph, 'A')
+​
+print("\nDFS:")
+dfs(graph, 'A')
+​
+BFS:
+A B C D E F 
+DFS:
+A B D E F C 
