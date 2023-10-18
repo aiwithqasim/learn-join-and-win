@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @huzaifaahmed3023
+- 👀 I’m interested in Computer Engineering.
+- 🌱 I’m currently learning web development,Datascience and AI.
+- 💞️ I’m looking to collaborate on web development,DataScience and AI.
+- 📫 How to reach me out using my [Facebook ~ Huzaifa Ahmed](https://www.facebook.com/huzaifa.ahmed/)
