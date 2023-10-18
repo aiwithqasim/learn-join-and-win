@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @mahumkhattak13
+- 👀 I’m interested in computer Engineering.
+- 🌱 I’m currently learning Web Development,DataScience and AI.
+- 💞️ I’m looking to collaborate on Web Development,DataScience and AI.
+- 📫 How to reach me out using my [instagram ~ m_k.257](https://instagram.com/m_k.257?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr)
