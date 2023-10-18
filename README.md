@@ -17,9 +17,18 @@ Note: This challenge is mainly targeting newbies (Students) in Bahria University
 If you have previously never contributed to any open-source software then these steps will help you get started:
 
 1. Go to Hacktoberfest [official website](https://hacktoberfest.digitalocean.com/) and sign in there using your GitHub.
-2. Install git and setup in your computer. Download and install it from [here](https://git-scm.com/downloads).
-3. Fork this repository by click the Fork button in the top right of this page or simply [click here](https://github.com/sharjeelyunus/hacktoberfest/fork).
-4. Once it is forked, clone the repository in your computer. For this, copy the URL in the address bar, and use the following command:
+2. Install git-bash and set it up on your computer. Download and install it from [here](https://git-scm.com/downloads).
+3. [*REQUIRED IF YOU DON'T HAVE GIT-BASH INSTALLED & CONFIGURED LOCALLY*] After installing git-bash please complete this step to configure your Github account locally.
+
+```sh
+git config --global user.name "<add your GitHub username here>"
+```
+```sh
+git config --global user.email "<add your GitHub Email here>"
+```
+   
+5. Fork this repository by clicking the Fork button in the top right of this page or simply [click here](https://github.com/aiwithqasim/learn-join-and-win/fork).
+6. Once it is forked, clone the repository on your computer. For this, copy the URL in the address bar, and use the following command:
 
 ```sh
 git clone <url_you_just_copied>
@@ -42,8 +51,9 @@ Name_University_Section (i:e., QasimHassan_BahriaUniveristy_BCE8A)
 
 ![hacktoberfest](./images/github-readme.png)
 
+[**OR**]
 
-8. Make Sure your `README.md` have following this block with necessary info of yourself.
+Make Sure your `README.md` have following this block with necessary info of yourself.
 ```
     {
       "name": {YOUR_NAME},

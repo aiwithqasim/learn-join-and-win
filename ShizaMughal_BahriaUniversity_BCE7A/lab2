@@ -1,0 +1,110 @@
+def sum_without_teens(a, b, c):
+    def fix_teen(n):
+        if 13 <= n <= 19:
+            return 0
+        return n
+
+    a = fix_teen(a)
+    b = fix_teen(b)
+    c = fix_teen(c)
+
+    total = a + b + c
+    return total
+
+# Sample runs
+print("Exercise 1:")
+print("Input: a=3, b=1, c=4")
+print("Output: Sum =", sum_without_teens(3, 1, 4))
+
+print("Input: a=21, b=1, c=2")
+print("Output: Sum =", sum_without_teens(21, 1, 2))
+
+print("Input: a=13, b=1, c=19")
+print("Output: Sum =", sum_without_teens(13, 1, 19))
+Exercise 1:
+Input: a=3, b=1, c=4
+Output: Sum = 8
+Input: a=21, b=1, c=2
+Output: Sum = 24
+Input: a=13, b=1, c=19
+Output: Sum = 1
+7777777777777777777777777777777777777777777777
+def count_characters(input_string):
+    lowercase_count = 0
+    uppercase_count = 0
+    digit_count = 0
+    special_symbol_count = 0
+
+    for char in input_string:
+        if char.islower():
+            lowercase_count += 1
+        elif char.isupper():
+            uppercase_count += 1
+        elif char.isdigit():
+            digit_count += 1
+        else:
+            special_symbol_count += 1
+
+    print("String:", input_string)
+    print("Output: lowercase =", lowercase_count, ", uppercase =", uppercase_count, ", special symbols =", special_symbol_count, ", digits =", digit_count)
+
+# Sample run
+print("\nExercise 2:")
+count_characters("ABC123@gmail.com")
+Exercise 2:
+String: ABC123@gmail.com
+Output: lowercase = 8 , uppercase = 3 , special symbols = 2 , digits = 3
+def sum_and_average_of_digits(input_string):
+    digit_sum = 0
+    digit_count = 0
+
+    for char in input_string:
+        if char.isdigit():
+            digit_sum += int(char)
+            digit_count += 1
+
+    if digit_count == 0:
+        print("No digits found in the string.")
+    else:
+        average = digit_sum / digit_count
+        print("String:", input_string)
+        print("Output: Sum =", digit_sum, "and Average is", average)
+
+# Sample run
+print("\nExercise 3:")
+sum_and_average_of_digits("Q-301 is at 4 th floor of quaid block.")
+Exercise 3:
+String: Q-301 is at 4 th floor of quaid block.
+Output: Sum = 8 and Average is 2.0
+def difference_between_max_and_min(nums):
+    min_value = min(nums)
+    max_value = max(nums)
+    difference = max_value - min_value
+    return difference
+
+# Sample run
+print("\nExercise 4:")
+input_nums = [1, 2, 3, 4, 5, 8, 9, 10, 15, 40, 3]
+print("Input:", input_nums)
+print("min =", min(input_nums), ", max =", max(input_nums), ", difference =", difference_between_max_and_min(input_nums))
+Exercise 4:
+Input: [1, 2, 3, 4, 5, 8, 9, 10, 15, 40, 3]
+min = 1 , max = 40 , difference = 39
+def count_ant_strings(input_string):
+    count = 0
+    input_string = input_string.lower()  # Convert to lowercase for case-insensitive matching
+
+    for i in range(len(input_string) - 2):
+        if input_string[i:i+3] == "ant":
+            count += 1
+
+    return count
+
+# Sample run
+print("\nExercise 5:")
+input_str = "Antandart"
+print("String:", input_str)
+print("Output: count =", count_ant_strings(input_str))
+Exercise 5:
+String: Antandart
+Output: count = 1
