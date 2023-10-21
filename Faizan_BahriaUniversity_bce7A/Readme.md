@@ -1,5 +1,5 @@
     {
-      "name": {Dania Faizan},
+      "name": {Faizan},
       "batch": {BCE_2020},
       "major": {BCE},
       "githubUsername": {revfaiz},
